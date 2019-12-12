@@ -17,7 +17,7 @@ spec:
         app: prometheus
     spec:
       containers:
-      - image: prom/prometheus:v5.0.0
+      - image: prom/prometheus:latest
         name: prometheus
         command:
         - "/bin/prometheus"
